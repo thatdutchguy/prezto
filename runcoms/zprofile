@@ -1,7 +1,5 @@
-#
-# Executes commands at login pre-zshrc.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+alias be="bundle exec"
+alias serve="python -m SimpleHTTPServer"
+alias retag='ctags -R --exclude=vendor --exclude=public --exclude=.svn --exclude=.git --exclude=log --exclude=tmp *'
 
+source ~/.profile
